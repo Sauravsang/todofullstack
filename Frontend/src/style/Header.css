@@ -1,0 +1,43 @@
+.custom-navbar {
+  background-color: #bddaf7; /* Replace with your desired color */
+  padding: 15px 20px; /* Adjust spacing */
+}
+
+.custom-navbar .navbar-brand img {
+  width: 40px; /* Adjust logo size */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+.custom-navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Increase gap between logo and text */
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .nav-dropdown {
+  margin-right: 15px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.custom-navbar .form-control {
+  max-width: 300px; /* Adjust the search box width */
+}
+.user-dropdown .dropdown-toggle {
+  background: #f8f9fa;
+  border: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.user-dropdown .dropdown-toggle:hover {
+  background: #e9ecef;
+  color: #0056b3;
+}
+
+.user-dropdown .dropdown-menu {
+  right: 0; /* Align menu to the right */
+  left: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

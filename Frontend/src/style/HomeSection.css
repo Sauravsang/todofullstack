@@ -1,0 +1,114 @@
+/* Home Section Styling */
+.home-section {
+  animation: slideIn 1.5s ease-out;
+  position: relative;
+  padding: 60px 20px;
+   background: linear-gradient(45deg, #bb36fd, #9b00e8);
+  text-align: center;
+  color: white;
+  flex-grow: 1; /* Ensures content takes up remaining space */
+}
+
+.welcome-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 40px;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(100%); /* Start off-screen to the right */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); /* Move to the center */
+    opacity: 1;
+  }
+}
+
+.about-app h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.about-app p {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.action-button {
+  margin-top: 30px;
+}
+
+.action-button .btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.action-button .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+  
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
+.footer .social-icons {
+  margin-top: 15px;
+}
+
+.footer .social-icons a {
+  font-size: 16px;
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+/* JavaScript for Dynamic Year */
+#current-year {
+  font-weight: bold;
+}

@@ -1,0 +1,141 @@
+/* Container styles */
+.custom-todo-container {
+  padding-top: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+  margin-bottom: 150px;
+}
+
+/* Page heading */
+.custom-todo-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Create button container */
+.custom-create-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+/* Form styles */
+.custom-todo-form {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px  10px 16px rgba(0, 1, 0, 0.1);
+}
+
+/* Form row */
+.custom-form-row {
+  margin-bottom: 15px;
+}
+
+/* Form label */
+.custom-form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Form control */
+.custom-form-control {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+}
+
+/* Submit button container */
+.custom-submit-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Spinner */
+.custom-spinner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.custom-spinner {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* To-Do list styles */
+.custom-todo-list {
+  margin-top: 30px;
+}
+
+.custom-todo-item {
+  margin-bottom: 20px;
+}
+
+/* To-Do card styles */
+.custom-todo-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 16px rgba(0, 1, 0, 0.1);
+}
+
+/* To-Do title */
+.custom-todo-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Footer text */
+.custom-todo-footer {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+/* To-Do actions */
+.custom-todo-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Button custom styles */
+.custom-edit-btn,
+.custom-delete-btn {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .custom-todo-heading {
+    font-size: 1.5rem;
+  }
+
+  .custom-todo-form {
+    padding: 20px;
+  }
+
+  .custom-btn {
+    font-size: 0.9rem;
+  }
+
+  .custom-todo-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-edit-btn,
+  .custom-delete-btn {
+    margin-top: 10px;
+  }
+}
